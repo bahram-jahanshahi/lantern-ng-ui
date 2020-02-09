@@ -1,27 +1,15 @@
-# LanternNgUi
+# Lantern
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+This project has been generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
-## Development server
+## Libraries
+These libraries have been used in these project. 
+### 1. Angular-Material
+Run `ng add @angular/material` in order to install [Angular Material](https://material.angular.io/guide/getting-started)  
+### 2. Flex-Layout
+Run  `npm i @angular/flex-layout@8.0.0-beta.27` in order to install [Angular Flex Layout](https://github.com/angular/flex-layout) 
+then you need to import it in app.module.ts `import { FlexLayoutModule } from '@angular/flex-layout';`  
+### 3. Ngx-Translate
+Run `npm install @ngx-translate/core --save` and `npm install @ngx-translate/http-loader --save` 
+in order to install [ngx-translate](https://github.com/ngx-translate/core) 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

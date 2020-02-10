@@ -13,7 +13,8 @@ mat-card-title {
 
 .example-header-image {
   /*background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');*/
-  background-image: url('/assets/icons/lantern.png');
+  border-radius: 0;
+  background-image: url('/assets/icons/icons8-lantern-96.png');
   background-size: cover;
   width: 64px;
   height: 64px;

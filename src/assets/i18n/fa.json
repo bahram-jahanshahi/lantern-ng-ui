@@ -7,5 +7,18 @@
     "LoginButton": "ورود",
     "Fa": "فا",
     "En": "En"
+  },
+  "TopMenu": {
+    "BrandTitle": "فانوس",
+    "Farsi": "فارسی",
+    "English": "English",
+    "Profile": "پروفایل",
+    "Logout": "خروج"
+  },
+  "SideNav": {
+    "Dashboard": "داشبورد",
+    "Messages": "پیام ها",
+    "Tasks": "کارها",
+    "Administration": "مدیریت نرم افزار"
   }
 }

@@ -7,22 +7,20 @@ mat-sidenav {
 }
 
 mat-sidenav-container {
-
+  height: 100%;
 }
 
 mat-sidenav-content {
-
+  margin-top: 64px;
+  padding: 4px;
+  height: 100%;
 }
 
 mat-toolbar {
   position: fixed;
   top: 0;
   z-index: 2;
-}
-
-.content {
-  margin-top: 64px;
-  padding: 8px;
+  padding: 0;
 }
 
 .example-icon {
@@ -40,3 +38,33 @@ mat-toolbar {
 .container {
   height: 100%;
 }
+
+.brand-box {
+  display: table;
+  width: 200px;
+  height: 100%;
+}
+
+.brand-title-box {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  padding: 4px;
+}
+
+.brand-img-box {
+  display: table-cell;
+  vertical-align: middle;
+  width: 48px;
+  height: 100%;
+  padding: 4px;
+}
+
+.brand-img {
+  background-image: url('/assets/icons/icons8-lantern-96.png');
+  background-size: cover;
+  width: 48px;
+  height: 48px;
+}
+
+

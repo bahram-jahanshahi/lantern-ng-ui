@@ -1,5 +1,6 @@
 # Lantern
-
+Lantern is a project for analyzing and designing enterprise application
+within ferdose engine.  
 This project has been generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
 ## Libraries

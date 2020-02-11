@@ -18,6 +18,8 @@ import {
 } from '@angular/material';
 import {ReactiveFormsModule} from '@angular/forms';
 import { DesktopComponent } from './core/ui-layout/desktop/desktop.component';
+import { DesktopTwoComponent } from './core/ui-layout/desktop-two/desktop-two.component';
+import { TopMenuLargeComponent } from './core/ui-layout/desktop-two/top-menu-large/top-menu-large.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -28,7 +30,9 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     LoginFormComponent,
-    DesktopComponent
+    DesktopComponent,
+    DesktopTwoComponent,
+    TopMenuLargeComponent
   ],
   imports: [
     BrowserModule,

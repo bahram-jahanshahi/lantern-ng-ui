@@ -1,4 +1,5 @@
 <div class="app-container" [dir]="isRtl ? 'RTL' : 'LTR'" >
   <app-login-form *ngIf="! isLogin"></app-login-form>
-  <app-desktop *ngIf="isLogin"></app-desktop>
+  <!--<app-desktop *ngIf="isLogin"></app-desktop>-->
+  <app-desktop-two *ngIf="isLogin"></app-desktop-two>
 </div>

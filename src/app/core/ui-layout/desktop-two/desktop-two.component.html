@@ -39,7 +39,7 @@
       'margin-left' : ! isRtl && ! isSideBarMinimized ? '240px' : '64px'
     }"
   >
-    <mat-toolbar [class.mat-elevation-z2]="true" *ngIf="! isMediumWeb">
+    <mat-toolbar [class.mat-elevation-z2]="true" color="primary" *ngIf="! isMediumWeb">
       <button mat-icon-button (click)="sidenav.toggle()">
         <mat-icon>menu</mat-icon>
       </button>
